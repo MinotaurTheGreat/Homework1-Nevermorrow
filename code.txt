@@ -1,0 +1,60 @@
+file to copy-paste code, ignore this(or not)
+can be used as documentation, or something.... i don't care
+
+
+
+style="display:flex; align-items: center; justify-content: center"
+
+.login-form-grid{
+    display: grid;
+    height:100vh;
+    width:100vh;
+    grid-template-columns: repeat(12,100px);
+    grid-template-rows: repeat(12,100px);
+}
+.login-box{
+    grid-area:2/3/9/8;
+    background-color: rgba(240, 248, 255, 0.549);
+}
+
+
+useless but probably might be of use in the future
+@media (max-width: 1200px) {
+    .login-form-grid {
+        padding: 8%;
+    }
+}
+
+@media (max-width: 992px) {
+    .login-form-grid {
+        padding: 6%;
+    }
+}
+
+@media (max-width: 768px) {
+    .login-form-grid {
+        padding: 4%;
+    }
+}
+
+@media (max-width: 576px) {
+    .login-form-grid {
+        padding: 3%;
+    }
+}
+
+
+
+.custom-formcolor{
+    background-color: rgba(84, 93, 93, 0.677)
+}
+
+used for loginhelp, cards background
+
+            style="background-image: url('./image_assets/email-icon.png');
+            background-repeat: no-repeat;
+            display: flex;
+            background-position: center center;
+            background-size: 200px; "
+cards background-the boogaloo
+   text-bg-dark

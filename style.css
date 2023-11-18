@@ -1,0 +1,89 @@
+.login-form-flex {
+    /* Add other styles as needed */
+    background-image: url('./image_assets/New_map.jpg');
+    background-size: cover; /* or "contain" depending on your preference */
+    background-position: center center; /* or adjust as needed */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.help-window-flex{
+    margin-top: 1vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.login-form-grid{
+    display: grid;
+
+    grid-template-columns: repeat(12,100px);
+    grid-template-rows: repeat(12,100px);
+}
+.login-box{
+    grid-area:3/4/10/9;
+    background-color: rgba(240, 248, 255, 0.772);
+    border-radius: 5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modified-div{
+    cursor:pointer;
+}
+#modified-button:hover{
+    transition: all 0.3s;
+    transform: scale(1.1);
+    background-color: rgba(93, 99, 99, 0.378) !important; 
+}
+
+#modified-button:not(:hover){
+    transition: all 0.3s;
+    transform: scale(1);
+}
+
+.hover-over:hover{
+    cursor:pointer;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+    background-color: rgba(93, 99, 99, 0.378) !important; 
+}
+
+.hover-over:not(:hover){
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+
+
+.custom-input {
+    width: 300px; 
+  }
+
+
+
+
+  .form-floating {
+    width: 325px !important;
+    left: 75px !important;
+    position: relative;
+}
+
+.form-modifier {
+   top:15px !important; /* i dont know how, i dont know why, but this solved everything in my code.... DO NOT DELETE */
+}
+.form-check .form-check-input {
+    float: none;
+    margin-left: -1.5em;
+}
+.text-start {
+    text-align: center!important;
+}
+.modified-hero-loginhelp{
+    background-color:rgba(245, 222, 179, 0.3);
+}

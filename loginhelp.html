@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body >
+<div class="body-pillow " style=" background-image: url(./image_assets/Background_2.jpg);">
+<section class="login-navigation">
+    <div class="container">
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./homepage.html" style=" font-family: Garamond, serif;color: darkgray;">Nevermorrow-The Game</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        More
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">FAQ's</a></li>
+                        <li><a class="dropdown-item" href="#">Patch Notes</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="./loginhelp.html">Acoount Help</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                   <input class="form-control me-2" type="search" placeholder="Username" aria-label="Username">
+                  <input class="form-control me-2" type="search" placeholder="Password" aria-label="Password">
+                    <button class="btn btn-outline-success" type="submit">Login</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+</section>
+
+<section class="help-window-flex" >
+
+
+
+    <div class="container px-4 py-5" id="custom-cards">
+        <h1 class="pb-2 border-bottom text-center fw-bold display-1">Account Support</h1>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+          <a href="./login.html" class="text-decoration-none">
+            <div class="card card-cover h-100 overflow-hidden  rounded-4 shadow-lg hover-over " 
+            style="background-color:rgba(250, 235, 215, 0.325) ; background-repeat: no-repeat ; background-position: center; background-image: url(./image_assets/lock-circle@3x.png);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-3 mt-3 mb-2 display-5 lh-1 fw-bold">Forgot Password</h3>
+                <p>Provide us with your email and we will gladly help.</p>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="./image_assets/GameIMGAssets/basedasf-neco-gamer.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+          </div>
+    
+          <div class="col">
+            <a class="text-decoration-none">
+              <div class="mail-letter"></div>
+            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg hover-over " 
+            style="background-color:rgba(250, 235, 215, 0.322) ;background-repeat: no-repeat ; background-position: center; background-image: url(./image_assets/mail@3x.png);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-3 mt-3 mb-2 display-5 lh-1 fw-bold">Recover E-mail</h3>
+                <p> Enter your username and password and choose the method of recovery.</p>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="./image_assets/GameIMGAssets/basedasf-neco-chaos-cool.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+          </div>  
+          <div class="col">
+            <a class="text-decoration-none">
+            <div class="card card-cover h-100 overflow-hidden  rounded-4 shadow-lg hover-over " 
+            style="background-color:rgba(250, 235, 215, 0.323) ; background-repeat: no-repeat ; background-position: center; background-image: url(./image_assets/user@3x.png);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-3 mt-3 mb-2 display-5 lh-1 fw-bold">Username change</h3>
+                <p>Seems like you had a change of heart. Don't worry, we're here.</p>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="./image_assets/charactergamelogo.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+          </div>
+        </div>
+      </div>
+</section>
+
+
+
+<section>
+
+
+
+
+  <div class="container col-xxl-8 pt-2 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./image_assets/GameIMGAssets/neco-arc-help-provided.png" class="d-block mx-lg-auto img-fluid" 
+        alt="Bootstrap Themes" width="500" height="300" loading="lazy" 
+        style="border-radius: 25%;
+        border: solid 5px !important;
+        ">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Still didn't find what you needed?</h1>
+        <p class="lead">Do not be worried! Our team of experienced developers is always available, and glad to help. Just contact us <a href="">here</a>,  or on social media such as our <a href="">Discord Server</a>, and our active <a href="https://www.instagram.com/ronniecoleman8/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==">Instagram Page</a>.</p>
+        <p>For more help, see bellow.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">FAQ's</button>
+          <a href="./register.html"><button type="button" class="btn btn-outline-secondary btn-lg px-4" >Create New Account</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+
+
+</div>
+</body>
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top " style="z-index:0">
+  <p class="col-md-4 mb-0 text-body-secondary">© 2023 Octavian Mihaila</p>
+
+  <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+  </a>
+  <ul class="nav col-md-4 justify-content-end">
+    <li class="nav-item"><a href="./homepage.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+    <li class="nav-item"><a href="./loginhelp.html" class="nav-link px-2 text-body-secondary">Account</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Patch Notes</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+  </ul>
+</footer>
+
+</html>
